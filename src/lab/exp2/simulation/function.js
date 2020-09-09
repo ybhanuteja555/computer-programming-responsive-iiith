@@ -98,7 +98,6 @@ window.view = {
 		document.getElementById('questionCircle').className = 'questionBlock hide'
 		document.getElementById('imageCircle').className += ' disabledImage'
 		document.getElementById('tickCircle').className = 'tick'
-		document.getElementById('imageCircle').style.opacity = '0.3'
 		this.i ++
 		this.replaceDivs()
 	},
